@@ -45,7 +45,7 @@ lang = {
     "info3":
       "در این روش، چون فقط عناصر برگ، نمودارهایی که متن هستند، کارآمدتر و سریعتر از الگوریتم هایی که بر اساس مرور کل فایل HTML هستند، پردازش می شوند.",
   },
-  De: {
+  de: {
     ":heading": "Wahl der Sprachauswahl basierend auf DFS",
     ":h2": "Mehr Informationen",
     ":first:p": "Ich hoffe, es ist für Sie nützlich.:))",
@@ -68,7 +68,7 @@ lang = {
     "info3":
       "In dieser Methode werden nur Blattelemente, die Texte enthalten, effizienter und schneller verarbeitet als Algorithmen, die auf der Durchsuchung der gesamten HTML-Datei basieren",
   },
-  Spa: {
+  spa: {
     ":heading": "Selector de idioma basado en DFS",
     ":h2": "Más información",
     ":first:p": "Espero que te sea útil:))",
@@ -91,5 +91,4 @@ lang = {
     "info3":
 "En este método, solo los elementos de hoja, que son nodos de texto, se procesan de manera más eficiente y rápida que los algoritmos que se basan en recorrer todo el archivo HTML."
   },
-  
 };
