@@ -6,10 +6,10 @@ lang = {
     ":english": "English",
     ":persian": "Persian",
     // ':portuguese': 'Portuguese',
-    ":choose": "Choose the language",
+    ":choose": "Choose your language",
     "ben1": "Very Fast",
     "ben2": "Based on DFS Traversal",
-    "ben3": "Easy Using",
+    "ben3": "Easy to Use",
     "ben4": "Fully Adaptable",
     "tit1": "Ease of use",
     "info1":
@@ -28,12 +28,12 @@ lang = {
     ":english": "انگلیسی",
     ":persian": "فارسی",
     // ':portuguese': 'Portuguese',
-    ":choose": "زبان را انتخاب کنید",
+    ":choose": "زبان موردنظر را انتخاب کنید",
     "ben1": "خیلی سریع",
     "ben2": "مبتنی بر پیمایش DFS گراف",
     "ben3": "استفاده آسان",
     "ben4": "کاملا انطباق پذیر",
-    "tit1": "راحتی استفاده",
+    "tit1": "استفاده آسان",
     "info1":
       "نحوه استفاده از این سرویس بسیار آسان است. کافیست کلمات مورد نظر خود را در فایل local.js به عنوان دیکشنری وارد کنید. سپس کلیدهای این دیکشنری را در جای مناسب در فایل html قرار دهید.",
     "tit2": "الگوریتم پیشرفته",
@@ -43,4 +43,49 @@ lang = {
     "info3":
       "در این روش، چون فقط عناصر برگ، نمودارهایی که متن هستند، کارآمدتر و سریعتر از الگوریتم هایی که بر اساس مرور کل فایل HTML هستند، پردازش می شوند.",
   },
+  De: {
+    ":heading": "Wahl der Sprachauswahl basierend auf DFS",
+    ":h2": "Mehr Informationen",
+    ":first:p": "Ich hoffe, es ist für Sie nützlich.:))",
+    ":english": "Englisch",
+    ":persian": "Persisch",
+    // ':portuguese': 'Portuguese',
+    ":choose": "wählen Sie die gewünschte Sprache aus",
+    "ben1": "Sehr schnell",
+    "ben2": "DFS-basiertes Graphdurchlaufverfahren",
+    "ben3": "Leichte Verwendung",
+    "ben4": "Vollständig anpassbar",
+    "tit1": "Leichte Verwendung",
+    "info1":
+      "Die Verwendung dieses Dienstes ist sehr einfach. Geben Sie einfach die gewünschten Wörter als Wörterbuch in der Datei local.js ein und platzieren Sie dann die Schlüssel dieses Wörterbuchs an der richtigen Stelle in der HTML-Datei.",
+    "tit2": "fortgeschrittene Algorithmus",
+    "info2":
+      "In diesem Algorithmus wird die virtualisierte Struktur der HTML-Sprache in Form eines Graphen an den Service übergeben und dann werden nur die Blätter dieses Baums mit dem Graph Depth-First-Algorithmus übersetzt.",
+    "tit3": "Hohe Verarbeitungsgeschwindigkeit",
+    "info3":
+      "In dieser Methode werden nur Blattelemente, die Texte enthalten, effizienter und schneller verarbeitet als Algorithmen, die auf der Durchsuchung der gesamten HTML-Datei basieren",
+  },
+  Spa: {
+    ":heading": "Selector de idioma basado en DFS",
+    ":h2": "Más información",
+    ":first:p": "Espero que te sea útil:))",
+    ":english": "Inglés",
+    ":persian": "Persa",
+    // ':portuguese': 'Portuguese',
+    ":choose": "Seleccione el idioma deseado",
+    "ben1": "Muy rápido",
+    "ben2": "Basado en la búsqueda DFS del grafo",
+    "ben3": "Fácil de usar",
+    "ben4": "Completamente adaptable",
+    "tit1": "Fácil de usar",
+    "info1":
+      "El uso de este servicio es muy fácil. Simplemente ingrese las palabras deseadas como diccionario en el archivo local.js y luego coloque las claves de este diccionario en el lugar adecuado en el archivo HTML",
+    "tit2": "Algoritmo avanzado",
+    "info2":
+      "En este algoritmo, la estructura virtualizada del lenguaje HTML se entrega al servicio en forma de grafo y luego solo se traducen las hojas de este árbol con el algoritmo depth-first del grafo",
+    "tit3": "Alta velocidad de procesamiento",
+    "info3":
+"En este método, solo los elementos de hoja, que son nodos de texto, se procesan de manera más eficiente y rápida que los algoritmos que se basan en recorrer todo el archivo HTML."
+  },
+  
 };
