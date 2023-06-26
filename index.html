@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Javascript Language</title>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+        <link href="style/bootstrap.css" rel="stylesheet">
+        <link href="style/style.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="js/LanguageSelector.js"></script>
+        <script src="locale.js"></script>
+    </head>
+    <body>
+        <div class="mx-2 my-2 py-2 w-25">
+            <select id="langSelector">
+                <option>:choose</option>
+                <option value="en">:english</option>
+                <option value="fa">:persian</option>
+            </select>
+        </div>
+        <div class="w-100 mx-auto">
+            <div class="w-50 mx-auto">
+                <h1 class="mx-auto text-center" style="font-family:Georgia, 'Times New Roman', Times, serif;">:heading</h1>
+            </div>
+            <hr class="mx-auto" style="width:85%;height:4px;border-width:0;color:black;background-color:black">
+        </div>
+        <div class="w-75 bg-dark mx-auto py-3 row" style="border-radius: 2.5mm;">
+            <div class="w-25 text-center text-info fs-5">ben1</div>
+            <div class="w-25 text-center text-info fs-5">ben2</div>
+            <div class="w-25 text-center text-info fs-5">ben3</div>
+            <div class="w-25 text-center text-info fs-5">ben4</div>
+        </div>
+        <div class="container-fluid text-center my-3 mx-auto" style="width: 90%;">
+            <h3 class="h-25 w-50 mx-auto" style="font-family: 'Times New Roman', Times, serif;">:h2</h3>
+            <div class="h-75 row align-content-center justify-content-between">
+                <div class="w-25 px-2 py-3" style="border-style:groove;border-radius: 1.5mm;border-color:aqua;">
+                    <h4>
+                        tit1
+                    </h4>
+                    <hr class="mx-auto" style="width:85%;height:2px;border-width:0;color:black;background-color:black">
+                    <p>info1</p>
+                </div>
+                <div class="w-25 px-2 py-3" style="border-style:groove;border-radius: 1.5mm;border-color:aqua;">
+                    <h4>
+                        tit2
+                    </h4>
+                    <hr class="mx-auto" style="width:85%;height:2px;border-width:0;color:black;background-color:black">
+                    <p>info2</p>
+                </div>
+                <div class="w-25 px-2 py-3" style="border-style:groove;border-radius: 1.5mm;border-color:aqua;">
+                    <h4>
+                        tit3
+                    </h4>
+                    <hr class="mx-auto" style="width:85%;height:2px;border-width:0;color:black;background-color:black">
+                    <p>info3</p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid text-center">
+            <p class="text-primary" style="font-family: 'Courier New', Courier, monospace;font-size: larger;font-weight: 700;">:first:p</p>
+        </div>
+    </body>
+    <script>
+    var l = new LanguageSelector();
+    $(document).on("change", "#langSelector", function () {
+      var s = $(this).children("option:selected").val();
+      l.setLang(s);
+      location.reload();
+    });
+    l.changeLanguage(document.documentElement);
+    </script>
+</html>
